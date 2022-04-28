@@ -1,0 +1,60 @@
+.Movie{
+  min-height: 240vh;
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../public/movie-bg.jpg");
+  background-size: 100% 100%;
+}
+#movie-card {
+  margin: 10px 5px;
+  padding-top: 10px;
+  width: 300px;
+  height: 450px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  border-radius: 10px;
+}
+.movie-title{
+  font-size: 20px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#movie-list-area{
+  text-align: center;
+}
+.pagination{
+  width: 40px;
+  height: 40px;
+  float: left;
+  padding-left: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-size: 20px;
+  border-width: 0.5px;
+  border-color: grey;
+}
+#movie-detail-area {
+  margin-top: 20px;
+  position: fixed;
+  width: 40vw;
+  height: 80vh;
+  border: solid grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+#main-content{
+  position: relative;
+  top: 100px;
+}
+.movie-title-sm{
+  margin-top: 30px;
+}
+.movie-info {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

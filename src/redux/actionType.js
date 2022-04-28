@@ -1,0 +1,4 @@
+export const GET_MOVIES = "GET_MOVIES";
+export const GET_MUSICS = "GET_MUSICS";
+export const GET_MUSICS_BY_KEYWORD = "GET_MUSICS_BY_KEYWORD";
+export const GET_MUSIC_DETAIL = "GET_MUSIC_DETAIL";

@@ -1,0 +1,51 @@
+.Main{
+  min-height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url("../public/main.jpg");
+  background-size: 100%;
+  color: white;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+#momu{
+  display: block;
+  font-size: 100px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+#music-recommend-title{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#keyword-list>Button{
+  font-size: 20px;
+  border-radius: 30px;
+}
+#reco-list{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.music-area {
+  width: 500px;
+  height: 180px;
+  margin: 5px 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  float: left;
+  border-radius: 100px;
+  border: solid white;
+  border-width: 1px;
+}
+.album-cover {
+  margin-top: 15px;
+  clip-path: circle(50% at 50% 50%);
+}
+.music-info {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-left: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  line-height: 30px;
+  font-size: 17px;
+}
+

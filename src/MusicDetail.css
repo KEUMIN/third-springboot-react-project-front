@@ -1,0 +1,69 @@
+.MusicDetail{
+  height: 100vh;
+  background:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.7)), url("../public/music-bg.jpg");
+  background-size: 100%;
+}
+#music-title{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  display: inline-block;
+}
+#main-title{
+  margin-right: 20px;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-size: 40px;
+}
+.status-up{
+  color: #00f01c;
+  font-size: 35px;
+}
+.status-down{
+  color: red;
+  font-size: 35px;
+}
+.status{
+  font-size: 25px;
+}
+#indcrement{
+  font-size: 25px;
+}
+#music-detail-area{
+  height: 550px;
+  padding-top: 50px;
+  padding-left: 50px;
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.7);
+}
+#youtube-area{
+  height: 50vh;
+}
+#youtube-area>p{
+  color: white;
+}
+.music-keyword{
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: left;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+}
+#music-info-area{
+  padding-left: 50px;
+  height: 50vh;
+  color: white;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-size: 20px;
+}
+#description{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#album-cover{
+  clip-path: circle(50% at 50% 50%);
+  animation: rotate_image 12s linear infinite;
+  mask-image: radial-gradient(circle farthest-side at center, transparent 30%, white 0%);
+}
+@keyframes rotate_image{ 100% { transform: rotate(360deg); } }
